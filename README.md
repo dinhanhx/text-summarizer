@@ -36,7 +36,7 @@ When reading a piece of text such as an article or a textbook, one ought to draw
 
 ### 2.1 Vision and Goals
 
-Our team has the intention to build a text summarizer, which means it can receive a text file as input and simplify it down to only the most fundamental information such as headers, key words or conclusion sentences. The process is simple: the user inputs a pdf and wait. The software processes the file and exports a new one, containing only the summarization.
+Our team has the intention to build a text summarizer, which means it can receive a text file as input and simplify it down to only the most fundamental information such as key words. The process is simple: the user inputs a pdf and wait. The software processes the file and exports a new one, containing only the summarization.
 
 This software can be helpful tool for students to learn textbooks and articles productively. Moreover, lecturers can benefit from it when designing lecture slides based on textbooks.
 
