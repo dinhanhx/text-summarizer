@@ -1,5 +1,4 @@
 # Project name: Text Summarizer
-# Project Proposal:
 
 **Document owner**
 
