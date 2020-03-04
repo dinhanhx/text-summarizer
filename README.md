@@ -48,9 +48,9 @@ This software can be helpful tool for students to learn productively and absorb 
 ### 2.2 Plans
 
 Our team is going to build a neural network to classify words in the text and elicit the most important keywords.
-Our platform is going to be Python and the kernel we plan to use can be found here https://www.kaggle.com/au1206/text-classification-using-cnn
+Our platform is going to be Python and the kernel we plan to use can be found [here.](https://www.kaggle.com/au1206/text-classification-using-cnn)
 
-Besides, we are going to 
+Besides, we are going to implement our application's UI with Figma. [Click here.](https://www.figma.com/file/ZSctHH5q0kA7mcsh6l9EZK/UI-text-summarizer?node-id=0%3A1)
 
 ### 2.2 Risks &amp; Issues
 
