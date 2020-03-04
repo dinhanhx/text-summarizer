@@ -40,15 +40,15 @@ Our team has the intention to build a text summarizer, which means it can receiv
 
 This software can be helpful tool for students to learn textbooks and articles productively. Moreover, lecturers can benefit from it when designing lecture slides based on textbooks.
 
-This is an example of a similar software: http://autosummarizer.com/
+An [example](http://autosummarizer.com/) of a similar software: 
 
 The most fundamental function of the software is to return a list of keywords. If our team has more time, we can organize this list in this order: key concepts - brief explanation - conclusion.
 
 ### 2.2 Plans
 
-Front-end: The interface in design can be found here https://www.figma.com/file/ZSctHH5q0kA7mcsh6l9EZK/UI-text-summarizer
+Front-end: The interface in design can be found [here](https://www.figma.com/file/ZSctHH5q0kA7mcsh6l9EZK/UI-text-summarizer)
 
-Back-end: Our team is going to build a neural network on the Python platform to classify keywords. The kernel we plan to use can be found here https://www.kaggle.com/au1206/text-classification-using-cnn
+Back-end: Our team is going to build a neural network on the Python platform to classify keywords. The kernel we plan to use can be found [here](https://www.kaggle.com/au1206/text-classification-using-cnn)
 
 
 ### 2.3 Risks &amp; Issues
