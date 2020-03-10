@@ -9,21 +9,19 @@
 
 **Table of Contents**
 
-1        Background
+1        [Background](https://github.com/dinhanhx/text-summarizer/blob/master/documents/Proposal.md#1-background)
 
-2        Proposal
+2        [Proposal](https://github.com/dinhanhx/text-summarizer/blob/master/documents/Proposal.md#2-proposal)
 
-2.1        Vision and Goals
+&nbsp;&nbsp;2.1        [Vision and Goals](https://github.com/dinhanhx/text-summarizer/blob/master/documents/Proposal.md#21-vision-and-goals)
 
-2.2        Plans
+&nbsp;&nbsp;2.2        [Plans](https://github.com/dinhanhx/text-summarizer/blob/master/documents/Proposal.md#22-plans)
 
-2.3        Risks &amp; Issues
+&nbsp;&nbsp;2.3        [Risks &amp; Issues](https://github.com/dinhanhx/text-summarizer/blob/master/documents/Proposal.md#23-risks--issues)
 
-2.3        Implications
+&nbsp;&nbsp;2.4        [Success Criteria](https://github.com/dinhanhx/text-summarizer/blob/master/documents/Proposal.md#24-success-criteria)
 
-2.4        Success Criteria
-
-2.5        Authorization
+&nbsp;&nbsp;2.5        [Authorization](https://github.com/dinhanhx/text-summarizer/blob/master/documents/Proposal.md#25-authorization)
 
 
 ## 1. Background
