@@ -2,10 +2,10 @@
 
 **Document owner**
 
-Vu Dinh Anh,
-Nguyen Lan Huong,
-Nguyen Nhu Hieu,
-Dao Duong Hoang Long
+- Nguyen Lan Huong ~ BI9-114
+- Dao Duong Hoang Long ~ BI9-154 
+- Nguyen Nhu Hieu BI9 ~ BI9-103
+- Vu Dinh Anh ~ BI9-037
 
 **Table of Contents**
 
@@ -50,6 +50,7 @@ Front-end: The interface in design can be found [here](https://www.figma.com/fil
 
 Back-end: Our team is going to build a neural network on the Python platform to classify keywords. The kernel we plan to use can be found [here](https://www.kaggle.com/au1206/text-classification-using-cnn)
 
+Framework: [Flutter](https://flutter.dev/docs/deployment/web) for Web app
 
 ### 2.3 Risks &amp; Issues
 
