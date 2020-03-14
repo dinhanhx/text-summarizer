@@ -1,5 +1,5 @@
-import scriptum_abberivator as sa
-import wikipedia_abberivator as wa
+from abberivator_flow import scriptum_abberivator as sa
+from abberivator_flow import wikipedia_abberivator as wa
 
 ## Test raw file text
 # text_file = open('A_long_text.txt', 'r')
