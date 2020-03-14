@@ -1,5 +1,5 @@
 import scriptum_abberivator as sa
-import textus_abberivator as ta
+import wikipedia_abberivator as wa
 
 ## Test raw file text
 # text_file = open('A_long_text.txt', 'r')
@@ -21,4 +21,3 @@ import textus_abberivator as ta
 # import nltk
 # nltk.download('stopwords')
 # nltk.download('punkt')
-

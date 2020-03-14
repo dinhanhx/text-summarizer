@@ -4,7 +4,7 @@ import re
 import nltk
 import heapq
 
-def summary(url):
+def summarize(url):
 	scraped_data = urllib.request.urlopen(url)
 	article = scraped_data.read()
 	parsed_article = bs.BeautifulSoup(article,'lxml')
@@ -46,5 +46,5 @@ def summary(url):
 						sentence_scores[sent] += word_frequencies[word]
 
 	summary_sentences = heapq.nlargest(7, sentence_scores, key=sentence_scores.get)
-	
+
 	return ' '.join(summary_sentences)

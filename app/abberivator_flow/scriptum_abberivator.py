@@ -61,11 +61,10 @@ def _generate_summary(sentences, sentenceValue, threshold):
     return summary
 
 
-def summary(text):
+def summarize(text):
 	freq_table = _create_frequency_table(text)
 	sentences = sent_tokenize(text)
 	sentence_scores = _score_sentences(sentences, freq_table)
 	threshold = _find_average_score(sentence_scores)
 
 	return _generate_summary(sentences, sentence_scores, 1.5 * threshold)
-
