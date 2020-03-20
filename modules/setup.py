@@ -1,6 +1,6 @@
 from setuptools import setup
 setup(name='abberivator_flow',
-version='nan',
+version='OwO',
 description='nan',
 url='#',
 author='dinhanhx',
