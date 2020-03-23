@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 Run this command line in 'modules' folder to set up all packages.
 
-## Start up
+## 2. Start up
 ```
 python text-sum-core.py
 ```
@@ -23,7 +23,7 @@ Open your favorite browser and go to this [link.](http://localhost:5000/text-sum
 http://localhost:5000/text-summarizer
 ```
 
-## 2. Usage
+## 3. Usage
 It's quite easy to use.
 ### Plain text (in English)
 You can paste your long text in the first input box then click summarize this.
@@ -41,9 +41,11 @@ You can upload a pdf file then click summarize this.
 
 The web app will return you as text file named out.txt
 
-## 3. Some documents
+## 4. Some documents
 You can check out in 'documents' folder.
 
 [Requirements Specification](https://docs.google.com/document/d/1JPUjkj7WB9qNS9bpn55QV00t1JlRpcWaTEJ1eBziqg0/edit)
+
+[Software Design]()
 
 ~ Author: Vu Dinh Anh ~
