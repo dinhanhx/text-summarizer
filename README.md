@@ -45,8 +45,8 @@ The web app will return you as text file named out.txt
 ## 4. Some documents
 You can check out in 'documents' folder.
 
-[Requirements Specification](https://docs.google.com/document/d/1JPUjkj7WB9qNS9bpn55QV00t1JlRpcWaTEJ1eBziqg0/edit)
+[Requirements Specification](https://docs.google.com/document/d/1JPUjkj7WB9qNS9bpn55QV00t1JlRpcWaTEJ1eBziqg0/)
 
-[Software Design]()
+[Software Design](https://docs.google.com/document/d/108BHsuCUpyInWNZPYqluplRkP0l9gAbkfa2SGPCXjkk/)
 
 ~ Author: Vu Dinh Anh ~
