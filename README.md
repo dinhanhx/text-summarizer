@@ -1,12 +1,13 @@
 # Text summarizer
 A repos for USTH SE 2020 Group 1 project. It's quite obvious in the title.
 
-[![Img](https://img.shields.io/badge/license-TheUnlicense-yellow)](https://unlicense.org/)
+[![Img](https://img.shields.io/badge/Python-3-green)]()
 
-[![Img](https://img.shields.io/badge/coolness-9000-red)]()
+[![Img](https://img.shields.io/badge/Coolness-9000-red)]()
+
+[![Img](https://img.shields.io/badge/License-TheUnlicense-yellow)](https://unlicense.org/)
 
 ## 1. Requirements
-Python 3
 ```
 pip install -r requirements.txt
 ```
