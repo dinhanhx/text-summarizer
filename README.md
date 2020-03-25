@@ -9,7 +9,7 @@ A repos for USTH SE 2020 Group 1 project. It's quite obvious in the title.
 
 ## 1. Requirements
 ```
-pip install -r requirements.txt
+pip install -r requirements.txt .
 ```
 Run this command line in 'modules' folder to set up all packages.
 
