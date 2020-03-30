@@ -1,9 +1,6 @@
-import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
 from setuptools import setup
 setup(name='abberivator_flow',
-version='OwO',
+version='0.0.1',
 description='nan',
 url='#',
 author='dinhanhx',

@@ -13,6 +13,11 @@ pip install -r requirements.txt .
 ```
 Run this command line in 'modules' folder to set up all packages.
 
+```
+python TestCode.py
+```
+Run this command line in 'modules\test_code_and_case' folder to set up all components.
+
 ## 2. Start up
 ```
 python text-sum-core.py
