@@ -5,4 +5,3 @@ PyPDF2==1.26.0
 nltk==3.4.5
 urllib3==1.25.8
 requests==2.23.0
-python-docx==0.8.10.
