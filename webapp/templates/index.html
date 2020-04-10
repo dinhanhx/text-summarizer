@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Summarizer</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<a href="#">Text Summarizer</a>
+			
+			<ul class="nav-button">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</div>
+		<div class="container">
+			<form class="summary" action = "http://localhost:5000/result_text" method = "POST">
+         		<p>Text here <input type = "text" name = "Text" /></p>
+         		<p><input type = "submit" value = "Summary this" /></p>
+      		</form>
+      		
+      		<form action = "http://localhost:5000/result_wiki" method = "POST">
+         		<p>Wikipedia url here <input type = "text" name = "Text" /></p>
+         		<p><input type = "submit" value = "Summary this" /></p>
+      		</form>
+
+      		<form action = "http://localhost:5000/result_pdff" method = "POST" enctype = "multipart/form-data">
+         		<input type = "file" name = "file" />
+         		<p><input type = "submit" value = "Summary a pdf file"/></p>
+      		</form>
+   	</body>
+		</div>
+	</header>
+</body>
+</html>
