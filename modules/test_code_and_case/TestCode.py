@@ -34,4 +34,5 @@ import odfpy
 
 def summarize(odt_file):
 	text = load(odt_file)
+	seperator = ', '
 	return sa.summarize(seperator.join(text))
