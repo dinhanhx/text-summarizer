@@ -33,4 +33,5 @@ import textract
 
 def summarize(doc_file):
 	text = textract.process(doc_file)
+	seperator = ', '
 	return sa.summarize(seperator.join(text))
