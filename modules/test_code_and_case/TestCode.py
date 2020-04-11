@@ -26,3 +26,12 @@ from abberivator_flow import pdf_abberivator as pa
 # out_text_file = open('A_pdf_sum.txt', 'w')
 # out_text_file.write(pa.summarize(pdf_file))
 # out_text_file.close()
+
+
+## Test a odt file
+from abberivator_flow import scriptum_abberivator as sa
+import odfpy
+
+def summarize(odt_file):
+	text = load(odt_file)
+	return sa.summarize(seperator.join(text))
