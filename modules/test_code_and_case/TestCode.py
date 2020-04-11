@@ -26,3 +26,11 @@ from abberivator_flow import pdf_abberivator as pa
 # out_text_file = open('A_pdf_sum.txt', 'w')
 # out_text_file.write(pa.summarize(pdf_file))
 # out_text_file.close()
+
+## Test a doc file
+from abberivator_flow import scriptum_abberivator as sa
+import textract
+
+def summarize(doc_file):
+	text = textract.process(doc_file)
+	return sa.summarize(seperator.join(text))
