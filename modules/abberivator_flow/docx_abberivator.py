@@ -8,5 +8,3 @@ def summarize(file):
 	   text.append(para.text)
 	seperator = ', '
 	return sa.summarize(seperator.join(text))
-
-print(summarize("George_Washington_Journal_Octorber_9_1794.docx"))
