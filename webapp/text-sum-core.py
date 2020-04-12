@@ -37,10 +37,10 @@ def result_pdff():
 		f.save(secure_filename(f.filename))
 		from abberivator_flow import pdf_abberivator as pa
 		out_text_file = open('out.txt', 'w')
-		out_text_file.write(pa.summarize(text_tring))
+		out_text_file.write(pa.summarize(f.filename))
 		out_text_file.close()
 		return send_file('out.txt', as_attachment=True)
-		#return pa.summarize(f.filename)
+		# return pa.summarize(f.filename)
 
 if __name__ == '__main__':
    app.run(debug = False, host= '0.0.0.0')
