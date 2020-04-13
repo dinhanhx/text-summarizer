@@ -3,8 +3,6 @@ A repos for USTH SE 2020 Group 1 project. It's quite obvious in the title.
 
 [![Img](https://img.shields.io/badge/Python-3-green)]()
 
-[![Img](https://img.shields.io/badge/Youtube-Demo-red)](https://youtu.be/UZ9a2ci0-4Q)
-
 [![Img](https://img.shields.io/badge/License-TheUnlicense-yellow)](https://unlicense.org/)
 
 
@@ -55,4 +53,12 @@ You can check out in 'documents' folder.
 
 [Software Design](https://docs.google.com/document/d/108BHsuCUpyInWNZPYqluplRkP0l9gAbkfa2SGPCXjkk/)
 
+## 5. Videos
+[March Update](https://youtu.be/UZ9a2ci0-4Q)
+
+[April Update](https://youtu.be/4AlDmCvgi20)
+
+[Mid April Update]()
+
+[Final Update]()
 ~ Author: Vu Dinh Anh ~
