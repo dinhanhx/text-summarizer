@@ -10,6 +10,6 @@ def summarize(pdf_file):
 		pageObj = pdfReader.getPage(i)
 		text.append(pageObj.extractText())
 
-	print(text)
+	# print(text)
 	seperator = ', '
 	return sa.summarize(seperator.join(text))
