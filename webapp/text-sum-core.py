@@ -30,14 +30,14 @@ def result_wiki():
 		return send_file('out.txt', as_attachment=True)
 		#return wa.summarize(text_tring)
 
-@app.route('/result_pdff',methods = ['POST', 'GET'])
+@app.route('/result_document',methods = ['POST', 'GET'])
 def result_pdff():
 	if request.method == 'POST':
 		f = request.files['file']
 		f.save(secure_filename(f.filename))
-		from abberivator_flow import pdf_abberivator as pa
+		from abberivator_flow import pdf_abberivator as pa # Will change this to document_abberiavtor when .odt implemented
 		out_text_file = open('out.txt', 'w')
-		out_text_file.write(pa.summarize(f.filename))
+		out_text_file.write(pa.summarize(f.filename)) # Will change this to document_abberiavtor when .odt implemented
 		out_text_file.close()
 		return send_file('out.txt', as_attachment=True)
 		# return pa.summarize(f.filename)
