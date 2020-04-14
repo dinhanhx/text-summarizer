@@ -5,6 +5,11 @@ A repos for USTH SE 2020 Group 1 project. It's quite obvious in the title.
 
 [![Img](https://img.shields.io/badge/License-TheUnlicense-yellow)](https://unlicense.org/)
 
+## Warning
+If you git clone or download the repos, you will have nightly-build product.
+
+If you download 'Release' section, you will have stable product.
+
 
 ## 1. Requirements
 ```
@@ -17,7 +22,7 @@ python TestCode.py
 ```
 Run this command line in 'modules\test_code_and_case' folder to set up all components.
 
-## 2. Start up
+## 2. Ignite the app
 ```
 python text-sum-core.py
 ```
@@ -61,4 +66,5 @@ You can check out in 'documents' folder.
 [Mid April Update]()
 
 [Final Update]()
+
 ~ Author: Vu Dinh Anh ~
