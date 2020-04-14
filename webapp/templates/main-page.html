@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Text Summarizer</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
 </head>
 <body>
 	<header>
@@ -27,7 +27,7 @@
 
       		<form action = "/result_document" method = "POST" enctype = "multipart/form-data">
          		<input type = "file" name = "file" />
-         		<p><input type = "submit" value = "Summary a pdf file"/></p>
+         		<p><input type = "submit" value = "Summary a document file (.pdf)"/></p>
       		</form>
    	</body>
 		</div>
