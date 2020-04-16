@@ -35,7 +35,7 @@ def result_pdff():
 	if request.method == 'POST':
 		f = request.files['file']
 		f.save(secure_filename(f.filename))
-		from abberivator_flow import document_abberiavtor as da
+		from abberivator_flow import document_abberivator as da
 		out_text_file = open('out.txt', 'w')
 		out_text_file.write(da.summarize(f.filename))
 		out_text_file.close()

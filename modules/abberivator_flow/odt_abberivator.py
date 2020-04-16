@@ -10,4 +10,5 @@ def summarize(odt_file):
         raw_text.append(teletype.extractText(para))
 
     seperator = ''
-	return sa.summarize(str(seperator.join(raw_text)))
+    # print(str(seperator.join(raw_text)))
+    return sa.summarize(str(seperator.join(raw_text)))

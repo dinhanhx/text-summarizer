@@ -8,4 +8,5 @@ def summarize(file):
 	   text.append(para.text)
 
 	seperator = ''
+	# print(str(seperator.join(text)))
 	return sa.summarize(str(seperator.join(text)))

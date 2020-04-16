@@ -5,7 +5,7 @@ from abberivator_flow import odt_abberivator as odt_a
 import os
 
 def check_extension(file_path):
-    extension = os.path.splitext(path)[-1]
+    extension = os.path.splitext(file_path)[-1]
     return extension.replace(".", "")
 
 def summarize(file_path):
