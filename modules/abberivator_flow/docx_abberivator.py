@@ -6,5 +6,6 @@ def summarize(file):
 	text = []
 	for para in doc.paragraphs:
 	   text.append(para.text)
-	seperator = ', '
-	return sa.summarize(seperator.join(text))
+
+	seperator = ''
+	return sa.summarize(str(seperator.join(text)))
