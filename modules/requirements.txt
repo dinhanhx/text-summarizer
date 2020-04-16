@@ -7,3 +7,4 @@ urllib3==1.25.8
 requests
 lxml
 python-docx==0.8.10
+odfpy==1.4.1

@@ -35,9 +35,9 @@ def result_pdff():
 	if request.method == 'POST':
 		f = request.files['file']
 		f.save(secure_filename(f.filename))
-		from abberivator_flow import pdf_abberivator as pa # Will change this to document_abberiavtor when .odt implemented
+		from abberivator_flow import document_abberivator as da
 		out_text_file = open('out.txt', 'w')
-		out_text_file.write(pa.summarize(f.filename)) # Will change this to document_abberiavtor when .odt implemented
+		out_text_file.write(da.summarize(f.filename))
 		out_text_file.close()
 		return send_file('out.txt', as_attachment=True)
 		# return pa.summarize(f.filename)
