@@ -1,7 +1,6 @@
 from abberivator_flow import pdf_abberivator as pdf_a
 from abberivator_flow import docx_abberivator as docx_a
 from abberivator_flow import odt_abberivator as odt_a
-from abberivator_flow import doc_abberivator as doc_a
 
 import os
 
