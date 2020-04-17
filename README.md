@@ -46,8 +46,8 @@ https://en.wikipedia.org/wiki/Communist_Party_of_Georgia_(Soviet_Union)
 https://en.wikipedia.org/wiki/Loss_function
 ```
 The web app will return you as text file named out.txt
-### PDF (Purely created and in English)
-You can upload a pdf file then click summarize this.
+### Documents (Purely created and in English)
+You can upload a .pdf, .odt, .docx file then click summarize this.
 
 The web app will return you as text file named out.txt
 
