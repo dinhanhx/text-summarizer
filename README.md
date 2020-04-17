@@ -8,9 +8,9 @@ A repos for USTH SE 2020 Group 1 project. It's quite obvious in the title.
 ## Warning
 If you git clone or download the repos, you will have nightly-build product.
 
-If you download 'Release' section, you will have stable product.
+If you download ['Release' section](https://github.com/dinhanhx/text-summarizer/releases), you will have stable product.
 
-
+You can check out ['Wiki' section](https://github.com/dinhanhx/text-summarizer/wiki) to understand more about the backend and the frontend.
 ## 1. Requirements
 ```
 pip install -r requirements.txt .
