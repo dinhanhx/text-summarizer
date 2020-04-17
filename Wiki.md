@@ -36,7 +36,7 @@ Open your favorite browser and go to this [link.](http://localhost:5000/text-sum
 ```
 http://localhost:5000/text-summarizer
 ```
-#### Use the app
+### Use the app
 It's quite easy to use.
 
 The web app will return you as text file named 'out.txt'
