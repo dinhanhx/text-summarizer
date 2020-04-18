@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image: url(../b.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+a{
+	margin-top: 20px;
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+	color: #fff;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	text-decoration: none;
+	background-color: transparent;
+	color: #000;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.container{
+	margin-top: -50px;
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	max-width: 600px;
+	max-height: 600px;
+}
+
+.switch {
+   	align-self: flex-end;
+    	margin: 0.9375rem;
+}
+
+.inner-switch {
+    	display: inline-block;
+    	cursor: pointer;
+    	border: 1px solid white;
+    	border-radius: 1.25rem;
+    	width: 3.125rem;
+    	text-align: center;
+    	font-size: 1rem;
+    	padding: 0.1875rem;
+    	margin-left: 0.3125rem;
+}
+
+p{
+	color: #000;
+}
+
+
+input{
+	width: 100%;
+	color: #000;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 1px;
+
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color:  #00005A;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=file]{
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 5px 7px;
+
+}
+
