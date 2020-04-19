@@ -5,7 +5,12 @@ A repos for USTH SE 2020 Group 1 project. It's quite obvious in the title.
 
 [![Img](https://img.shields.io/badge/License-TheUnlicense-yellow)](https://unlicense.org/)
 
+## Warning
+If you git clone or download the repos, you will have nightly-build product.
 
+If you download ['Release' section](https://github.com/dinhanhx/text-summarizer/releases), you will have stable product.
+
+You can check out ['Wiki' section](https://github.com/dinhanhx/text-summarizer/wiki) to understand more about the backend and the frontend.
 ## 1. Requirements
 ```
 pip install -r requirements.txt .
@@ -13,11 +18,11 @@ pip install -r requirements.txt .
 Run this command line in 'modules' folder to set up all packages.
 
 ```
-python TestCode.py
+python test.py
 ```
 Run this command line in 'modules\test_code_and_case' folder to set up all components.
 
-## 2. Start up
+## 2. Ignite the app
 ```
 python text-sum-core.py
 ```
@@ -41,8 +46,8 @@ https://en.wikipedia.org/wiki/Communist_Party_of_Georgia_(Soviet_Union)
 https://en.wikipedia.org/wiki/Loss_function
 ```
 The web app will return you as text file named out.txt
-### PDF (Purely created and in English)
-You can upload a pdf file then click summarize this.
+### Documents (Purely created and in English)
+You can upload a .pdf, .odt, .docx file then click summarize this.
 
 The web app will return you as text file named out.txt
 
@@ -61,4 +66,5 @@ You can check out in 'documents' folder.
 [Mid April Update]()
 
 [Final Update]()
+
 ~ Author: Vu Dinh Anh ~
