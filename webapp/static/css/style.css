@@ -80,7 +80,7 @@ input[type=text]:focus {
 }
 
 #ver {
-  background-color: #d148e0; /*blue*/
+  background-color: #4CAF50; 
   border: none;
   color: white;
   padding: 16px 32px;
@@ -151,7 +151,7 @@ input[type=file]{
 }
 
 .dark-mode #ver {
-  background-color: #4CAF50;
+  background-color: #555555;
   border: none;
   color: white;
   padding: 16px 32px;
