@@ -79,8 +79,8 @@ input[type=text]:focus {
   border: 3px solid #555;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
-  background-color: #4CAF50;
+#ver {
+  background-color: #4CAF50; 
   border: none;
   color: white;
   padding: 16px 32px;
@@ -98,4 +98,66 @@ input[type=file]{
   padding: 5px 7px;
 
 }
+
+#toggle {
+  background-color: #555555; 
+  border: none;
+  color: white;
+  padding: 13px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  font-size: 10px;
+}
+
+.dark-mode input[type=file]{
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 5px 7px;
+  text-decoration-color: white;
+
+}
+
+.dark-mode header{
+	background-image: url(../b.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.dark-mode a{
+	margin-top: 20px;
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+	color: #fff;
+}
+
+.dark-mode ul li.active a{
+	background-color: #000;
+	color: #fff;
+}
+
+.dark-mode ul li a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+.dark-mode #ver {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 
