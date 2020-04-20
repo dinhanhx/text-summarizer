@@ -78,13 +78,17 @@ output_str = da.summarize(file_path)
 ## 5. Tree structure of frontend
 Tree structure of folder 'webapp'
 ```
-|   text-sum-core.py # The file links the backend with the frontend
+|   text-sum-core.py
 |   
 +---static
-|   |   a.jpg # Background picture
+|   |   a.jpg
+|   |   b.jpg
 |   |   
-|   \---css
-|           style.css
+|   +---css
+|   |       style.css
+|   |       
+|   \---js
+|           main.js
 |           
 \---templates
         main-page.html
