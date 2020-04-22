@@ -21,9 +21,9 @@ pip install -r requirements.txt .
 Run this command line in 'modules' folder to set up all packages.
 
 ```
-python test.py
+python nltk_downloads.py
 ```
-Run this command line in 'modules\test_code_and_case' folder to set up all components.
+Run this command line in 'modules' folder to set up all components related to [nltk](https://www.nltk.org/).
 
 ## 3. Usage
 ### Ignite the app
