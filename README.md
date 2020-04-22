@@ -63,7 +63,7 @@ You can check out in 'documents' folder.
 
 [April Update](https://youtu.be/4AlDmCvgi20)
 
-[Mid April Update]()
+[Mid April Update](https://youtu.be/qH50rilTa6E)
 
 [Final Update]()
 
