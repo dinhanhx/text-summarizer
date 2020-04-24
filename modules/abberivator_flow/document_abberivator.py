@@ -22,4 +22,3 @@ def summarize(file_path):
 
     if extension == 'pdf':
         return pdf_a.summarize(file_path)
-
