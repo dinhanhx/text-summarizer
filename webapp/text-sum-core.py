@@ -22,12 +22,16 @@ def result_text():
 def result_wiki():
 	if request.method == 'POST':
 		result = request.form
-		text_tring = result['Text']
-		from abberivator_flow import wikipedia_abberivator as wa
-		out_text_file = open('out.txt', 'w')
-		out_text_file.write(wa.summarize(text_tring))
-		out_text_file.close()
-		return send_file('out.txt', as_attachment=True)
+		url = result['Text']
+		if "en.wikipedia.org/wiki/" in url:
+			import requests
+			req = requests.get(url)
+			if req.status_code == 200:
+				from abberivator_flow import wikipedia_abberivator as wa
+				out_text_file = open('out.txt', 'w')
+				out_text_file.write(wa.summarize(url))
+				out_text_file.close()
+				return send_file('out.txt', as_attachment=True)
 		#return wa.summarize(text_tring)
 
 @app.route('/result_document',methods = ['POST', 'GET'])
