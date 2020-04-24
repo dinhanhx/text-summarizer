@@ -18,17 +18,17 @@
 		<div class="container">
 			<form class="summary" action = "/text-summarizer" method = "POST">
          		<p>Text here <input type = "text" name = "Text" /></p>
-         		<p><input id="ver" type = "submit" value = "Summary this" /></p>
+         		<p><input id="ver" type = "submit" value = "Summarize this" /></p>
       		</form>
 
       		<form action = "/text-summarizer" method = "POST">
          		<p>Wikipedia url here <input type = "text" name = "Text" /></p>
-         		<p><input id="ver" type = "submit" value = "Summary this" /></p>
+         		<p><input id="ver" type = "submit" value = "Summarize this" /></p>
       		</form>
 
       		<form action = "/text-summarizer" method = "POST" enctype = "multipart/form-data">
          		<input type = "file" name = "file" />
-         		<p><input id="ver" type = "submit" value = "Summary a document file (.pdf, .docx, .odt)"/></p>
+         		<p><input id="ver" type = "submit" value = "Summarize a document file (.pdf, .docx, .odt)"/></p>
       		</form>
 		</div>
 		<button id="toggle" onclick="myFunction()">dark/light</button>
