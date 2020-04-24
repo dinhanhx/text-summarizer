@@ -1,0 +1,23 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.6, pytest-5.4.1, py-1.8.1, pluggy-0.13.1
+rootdir: E:\Python_Workspace\text-summarizer\test\pytest
+collected 4 items
+
+test_document_abberivator.py ...                                         [ 75%]
+test_scriptum_abberiavtor.py .                                           [100%]
+
+============================== warnings summary ===============================
+test_document_abberivator.py::test_pdf
+  e:\installed automatically program\python\lib\site-packages\nltk\decorators.py:68: DeprecationWarning: `formatargspec` is deprecated since Python 3.5. Use `signature` and the `Signature` object directly
+    regargs, varargs, varkwargs, defaults, formatvalue=lambda value: ""
+
+test_document_abberivator.py::test_pdf
+  e:\installed automatically program\python\lib\site-packages\nltk\lm\counter.py:15: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
+    from collections import Sequence, defaultdict
+
+test_document_abberivator.py::test_pdf
+  e:\installed automatically program\python\lib\site-packages\nltk\lm\vocabulary.py:13: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
+    from collections import Counter, Iterable
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+======================== 4 passed, 3 warnings in 1.19s ========================
