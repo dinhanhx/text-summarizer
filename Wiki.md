@@ -1,10 +1,10 @@
 # Welcome to the text-summarizer wiki!
 ## Table of contents
-- [Introduction](https://github.com/dinhanhx/text-summarizer/blob/master/Wiki.md#1-introduction)
-- [Installation](https://github.com/dinhanhx/text-summarizer/blob/master/Wiki.md#2-installation)
-- [Usage](https://github.com/dinhanhx/text-summarizer/blob/master/Wiki.md#3-usage)
-- [Library abberivator_flow of backend](https://github.com/dinhanhx/text-summarizer/blob/master/Wiki.md#4-library-abberivator_flow)
-- [Tree structure of frontend](https://github.com/dinhanhx/text-summarizer/blob/master/Wiki.md#5-tree-structure-of-frontend)
+- [Introduction](#1-introduction)
+- [Installation](#2-installation)
+- [Usage](#3-usage)
+- [Library abberivator_flow of backend](#4-library-abberivator_flow)
+- [Tree structure of frontend](#5-tree-structure-of-frontend)
 
 ## 1. Introduction
 The text-summarizer Software is a tool to analyze text documents and simplify them to only the key words. It captures most significant concepts, providing a concise overview, which can be useful in studying and memorizing for the user. The software is applicable to a myriad of documents such as articles or textbooks; and supports typical text files or online articles.
