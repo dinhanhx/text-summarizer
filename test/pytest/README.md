@@ -1,6 +1,10 @@
 ## Use what to test?
 [PyTest](https://docs.pytest.org/en/latest/)
 
+Installation `pip install pytest`
+
+Usage `pytest test_sample.py`
+
 ## What to test?
 ```Python
 from abberivator_flow import scriptum_abberivator as sa
