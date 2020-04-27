@@ -1,7 +1,7 @@
 # Text summarizer
 A repos for USTH SE 2020 Group 1 project. It's quite obvious in the title.
 
-[![Img](https://img.shields.io/badge/Python-3-green)]()
+[![Img](https://img.shields.io/badge/Python-3-green)](https://www.python.org/downloads/)
 
 [![Img](https://img.shields.io/badge/License-TheUnlicense-yellow)](https://unlicense.org/)
 
@@ -54,7 +54,7 @@ The web app will return you as text file named out.txt
 ## 4. Some documents
 You can check out in 'documents' folder.
 
-[Requirements Specification](https://docs.google.com/document/d/1JPUjkj7WB9qNS9bpn55QV00t1JlRpcWaTEJ1eBziqg0/)
+[Software Requirements](https://docs.google.com/document/d/1JPUjkj7WB9qNS9bpn55QV00t1JlRpcWaTEJ1eBziqg0/)
 
 [Software Design](https://docs.google.com/document/d/108BHsuCUpyInWNZPYqluplRkP0l9gAbkfa2SGPCXjkk/)
 

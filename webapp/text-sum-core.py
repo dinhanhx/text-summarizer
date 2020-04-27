@@ -6,7 +6,7 @@ app = Flask(__name__)
 def ignite():
    return render_template('main-page.html')
 
-@app.route('/result_text',methods = ['POST', 'GET'])
+@app.route('/text-summarizer',methods = ['POST', 'GET'])
 def result_text():
 	if request.method == 'POST':
 		result = request.form
@@ -18,7 +18,7 @@ def result_text():
 		return send_file('out.txt', as_attachment=True)
 		#return sa.summarize(text_tring)
 
-@app.route('/result_wiki',methods = ['POST', 'GET'])
+@app.route('/text-summarizer',methods = ['POST', 'GET'])
 def result_wiki():
 	if request.method == 'POST':
 		result = request.form
@@ -32,9 +32,14 @@ def result_wiki():
 				out_text_file.write(wa.summarize(url))
 				out_text_file.close()
 				return send_file('out.txt', as_attachment=True)
+			else:
+				return render_template('main-page.html')
+		else:
+			return render_template('main-page.html')
+
 		#return wa.summarize(text_tring)
 
-@app.route('/result_document',methods = ['POST', 'GET'])
+@app.route('/text-summarizer',methods = ['POST', 'GET'])
 def result_pdff():
 	if request.method == 'POST':
 		f = request.files['file']
