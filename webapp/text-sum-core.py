@@ -6,6 +6,7 @@ app = Flask(__name__)
 def ignite():
    return render_template('main-page.html')
 
+
 @app.route('/text-summarizer',methods = ['POST', 'GET'])
 def result_text():
 	if request.method == 'POST':
@@ -16,7 +17,7 @@ def result_text():
 		out_text_file.write(sa.summarize(text_tring))
 		out_text_file.close()
 		return send_file('out.txt', as_attachment=True)
-		#return sa.summarize(text_tring)
+
 
 @app.route('/text-summarizer',methods = ['POST', 'GET'])
 def result_wiki():
@@ -37,7 +38,6 @@ def result_wiki():
 		else:
 			return render_template('main-page.html')
 
-		#return wa.summarize(text_tring)
 
 @app.route('/text-summarizer',methods = ['POST', 'GET'])
 def result_pdff():
@@ -49,7 +49,7 @@ def result_pdff():
 		out_text_file.write(da.summarize(f.filename))
 		out_text_file.close()
 		return send_file('out.txt', as_attachment=True)
-		# return pa.summarize(f.filename)
+
 
 if __name__ == '__main__':
 	app.config["TEMPLATES_AUTO_RELOAD"] = True
