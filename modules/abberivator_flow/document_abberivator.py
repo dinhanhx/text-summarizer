@@ -10,8 +10,7 @@ def get_extension(file_path):
 
 def summarize(file_path):
     extension = get_extension(file_path)
-    extension_list = ['odt', 'docx', 'pdf']
-    if extension not in extension_list:
+    if extension not in ['odt', 'docx', 'pdf']:
     	return "File not supported"
 
     if extension == 'odt':
