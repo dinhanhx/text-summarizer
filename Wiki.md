@@ -11,7 +11,7 @@ The text-summarizer Software is a tool to analyze text documents and simplify th
 
 ## 2. Installation
 ### Warning
-If you want to contribute to this repos, please read [CONTRIBUTE.MD]()
+If you want to contribute to this repos, please read [CONTRIBUTE.MD](https://github.com/dinhanhx/text-summarizer/blob/master/CONTRIBUTE.md)
 
 If you git clone or download the repos, you will have nightly-build product.
 
