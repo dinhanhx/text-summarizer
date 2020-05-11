@@ -1,11 +1,13 @@
 # Text summarizer
 A repos for USTH SE 2020 Group 1 project. It's quite obvious in the title.
 
-[![Img](https://img.shields.io/badge/Python-3-green)]()
+[![Img](https://img.shields.io/badge/Python-3-green)](https://www.python.org/downloads/)
 
 [![Img](https://img.shields.io/badge/License-TheUnlicense-yellow)](https://unlicense.org/)
 
 ## Warning
+If you want to contribute to this repos, please read [CONTRIBUTE.md](https://github.com/dinhanhx/text-summarizer/blob/master/CONTRIBUTE.md)
+
 If you git clone or download the repos, you will have nightly-build product.
 
 If you download ['Release' section](https://github.com/dinhanhx/text-summarizer/releases), you will have stable product.
@@ -18,9 +20,9 @@ pip install -r requirements.txt .
 Run this command line in 'modules' folder to set up all packages.
 
 ```
-python test.py
+python nltk_downloads.py
 ```
-Run this command line in 'modules\test_code_and_case' folder to set up all components.
+Run this command line in 'modules' folder to set up all components related to [nltk](https://www.nltk.org/).
 
 ## 2. Ignite the app
 ```
@@ -54,7 +56,7 @@ The web app will return you as text file named out.txt
 ## 4. Some documents
 You can check out in 'documents' folder.
 
-[Requirements Specification](https://docs.google.com/document/d/1JPUjkj7WB9qNS9bpn55QV00t1JlRpcWaTEJ1eBziqg0/)
+[Software Requirements](https://docs.google.com/document/d/1JPUjkj7WB9qNS9bpn55QV00t1JlRpcWaTEJ1eBziqg0/)
 
 [Software Design](https://docs.google.com/document/d/108BHsuCUpyInWNZPYqluplRkP0l9gAbkfa2SGPCXjkk/)
 
@@ -63,7 +65,7 @@ You can check out in 'documents' folder.
 
 [April Update](https://youtu.be/4AlDmCvgi20)
 
-[Mid April Update]()
+[Mid April Update](https://youtu.be/qH50rilTa6E)
 
 [Final Update]()
 

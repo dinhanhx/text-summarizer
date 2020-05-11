@@ -6,7 +6,8 @@ app = Flask(__name__)
 def ignite():
    return render_template('main-page.html')
 
-@app.route('/result_text',methods = ['POST', 'GET'])
+
+@app.route('/text-summarizer',methods = ['POST', 'GET'])
 def result_text():
 	if request.method == 'POST':
 		result = request.form
@@ -16,21 +17,29 @@ def result_text():
 		out_text_file.write(sa.summarize(text_tring))
 		out_text_file.close()
 		return send_file('out.txt', as_attachment=True)
-		#return sa.summarize(text_tring)
 
-@app.route('/result_wiki',methods = ['POST', 'GET'])
+
+@app.route('/text-summarizer',methods = ['POST', 'GET'])
 def result_wiki():
 	if request.method == 'POST':
 		result = request.form
-		text_tring = result['Text']
-		from abberivator_flow import wikipedia_abberivator as wa
-		out_text_file = open('out.txt', 'w')
-		out_text_file.write(wa.summarize(text_tring))
-		out_text_file.close()
-		return send_file('out.txt', as_attachment=True)
-		#return wa.summarize(text_tring)
+		url = result['Text']
+		if "en.wikipedia.org/wiki/" in url:
+			import requests
+			req = requests.get(url)
+			if req.status_code == 200:
+				from abberivator_flow import wikipedia_abberivator as wa
+				out_text_file = open('out.txt', 'w')
+				out_text_file.write(wa.summarize(url))
+				out_text_file.close()
+				return send_file('out.txt', as_attachment=True)
+			else:
+				return render_template('main-page.html')
+		else:
+			return render_template('main-page.html')
 
-@app.route('/result_document',methods = ['POST', 'GET'])
+
+@app.route('/text-summarizer',methods = ['POST', 'GET'])
 def result_pdff():
 	if request.method == 'POST':
 		f = request.files['file']
@@ -40,7 +49,7 @@ def result_pdff():
 		out_text_file.write(da.summarize(f.filename))
 		out_text_file.close()
 		return send_file('out.txt', as_attachment=True)
-		# return pa.summarize(f.filename)
+
 
 if __name__ == '__main__':
 	app.config["TEMPLATES_AUTO_RELOAD"] = True

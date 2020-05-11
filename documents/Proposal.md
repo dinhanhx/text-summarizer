@@ -1,9 +1,11 @@
+Dev's note: everything in this document may be wrong, irrelevant or even different, please go to ['Wiki' section](https://github.com/dinhanhx/text-summarizer/wiki).
+
 # Project name: Text Summarizer
 
 **Document owner**
 
 - Nguyen Lan Huong ~ BI9-114
-- Dao Duong Hoang Long ~ BI9-154 
+- Dao Duong Hoang Long ~ BI9-154
 - Nguyen Nhu Hieu BI9 ~ BI9-103
 - Vu Dinh Anh ~ BI9-037
 
@@ -38,7 +40,7 @@ Our team has the intention to build a text summarizer, which means it can receiv
 
 This software can be helpful tool for students to learn textbooks and articles productively. Moreover, lecturers can benefit from it when designing lecture slides based on textbooks.
 
-An [example](http://autosummarizer.com/) of a similar software: 
+An [example](http://autosummarizer.com/) of a similar software:
 
 The most fundamental function of the software is to return a list of keywords. If our team has more time, we can organize this list in this order: key concepts - brief explanation - conclusion.
 

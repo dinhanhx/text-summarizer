@@ -4,12 +4,15 @@ from abberivator_flow import odt_abberivator as odt_a
 
 import os
 
-def check_extension(file_path):
+def get_extension(file_path):
     extension = os.path.splitext(file_path)[-1]
     return extension.replace(".", "")
 
 def summarize(file_path):
-    extension = check_extension(file_path)
+    extension = get_extension(file_path)
+    if extension not in ['odt', 'docx', 'pdf']:
+    	return "File not supported"
+
     if extension == 'odt':
         return odt_a.summarize(file_path)
 
