@@ -67,6 +67,6 @@ You can check out in 'documents' folder.
 
 [Mid April Update](https://youtu.be/qH50rilTa6E)
 
-[Final Update]()
+[Final Update](https://youtu.be/SCb5TJysqc8)
 
 ~ Author: Vu Dinh Anh ~
