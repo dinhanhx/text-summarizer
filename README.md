@@ -6,7 +6,7 @@ A repos for USTH SE 2020 Group 1 project. It's quite obvious in the title.
 [![Img](https://img.shields.io/badge/License-TheUnlicense-yellow)](https://unlicense.org/)
 
 ## Warning
-If you want to contribute to this repos, please read [CONTRIBUTE.md](https://github.com/dinhanhx/text-summarizer/blob/master/CONTRIBUTE.md)
+If you want to contribute to this repos, please read [CONTRIBUTING.md](https://github.com/dinhanhx/text-summarizer/blob/master/CONTRIBUTING.md)
 
 If you git clone or download the repos, you will have nightly-build product.
 
